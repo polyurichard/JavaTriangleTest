@@ -2,13 +2,13 @@
 
 `TriangleTest.java`: View the class under test at `test/main/java/com/example`
 
-Execute to run the automated tests
+Execute to run the automated tests and generate the test coverage port by Jacoco plugin.
 
 ```
 mvn package
 ```
 
-To view the Jacoco will generate the coverage report, execute
+To view the coverage report, execute
 
 ```
 python -m http.server
@@ -19,4 +19,4 @@ Access the website at `localhost:8000`.
 Navigate to `/target/site/jacoco/`. 
 
 
-**Exercise:**: Add  test caess to `TriangleTest.java` to increase the test coverage.
+**Exercise:**: Add  test cases to `TriangleTest.java` to increase the test coverage.
